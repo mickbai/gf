@@ -96,10 +96,10 @@ func ConfigFromStr(str string) (config *Config, err error) {
 		if config.Port == 0 {
 			config.Port = DefaultRedisPort
 		}
-		config.Host = "127.0.0.1"
-		config.Port = 6379
-		config.Db = 7
-		config.Pass = "123456"
+		// config.Host = "127.0.0.1"
+		// config.Port = 6379
+		// config.Db = 7
+		// config.Pass = "123456"
 
 		if err = gconv.Struct(parse, config); err != nil {
 			return nil, err
@@ -117,10 +117,10 @@ func ConfigFromStr(str string) (config *Config, err error) {
 		if config.Port == 0 {
 			config.Port = DefaultRedisPort
 		}
-		config.Host = "127.0.0.1"
-		config.Port = 6379
-		config.Db = 7
-		config.Pass = "123456"
+		// config.Host = "127.0.0.1"
+		// config.Port = 6379
+		// config.Db = 7
+		// config.Pass = "123456"
 	} else {
 		err = gerror.Newf(`invalid redis configuration: "%s"`, str)
 	}

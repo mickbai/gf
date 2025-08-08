@@ -23,31 +23,28 @@ const (
 func Redis(name ...string) *gredis.Redis {
 	config := Config()
 	group := gredis.DefaultGroupName
-	fmt.Printf("王亚杰1:%s", group)
 	if len(name) > 0 && name[0] != "" {
 		group = name[0]
 	}
 	instanceKey := fmt.Sprintf("%s.%s", frameCoreComponentNameRedis, group)
 	result := instances.GetOrSetFuncLock(instanceKey, func() interface{} {
-		fmt.Printf("王亚杰3")
 		// If already configured, it returns the redis instance.
 		if _, ok := gredis.GetConfig(group); ok {
 			return gredis.Instance(group)
 		}
-		fmt.Printf("王亚杰4")
 		// Or else, it parses the default configuration file and returns a new redis instance.
 		var m map[string]interface{}
 		if _, v := gutil.MapPossibleItemByKey(Config().GetMap("."), configNodeNameRedis); v != nil {
 			m = gconv.Map(v)
 		}
-		fmt.Printf("王亚杰2:%v", m)
 		if len(m) > 0 {
 			if v, ok := m[group]; ok {
-				redisConfig, err := gredis.ConfigFromStr(gconv.String(v))
+				item := v.(map[string]interface{})
+				strs := gconv.String(item["host"]) + ":" + gconv.String(item["port"]) + "," + gconv.String(item["db"]) + "," + gconv.String(item["pass"])
+				redisConfig, err := gredis.ConfigFromStr(strs)
 				if err != nil {
 					panic(err)
 				}
-				fmt.Printf("王亚杰9:%v", redisConfig)
 				return gredis.New(redisConfig)
 			} else {
 				panic(fmt.Sprintf(`configuration for redis not found for group "%s"`, group))
@@ -64,11 +61,8 @@ func Redis(name ...string) *gredis.Redis {
 		}
 		return nil
 	})
-	fmt.Printf("王亚杰5")
 	if result != nil {
-		fmt.Printf("王亚杰6")
 		return result.(*gredis.Redis)
 	}
-	fmt.Printf("王亚杰7")
 	return nil
 }
