@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 // go test *.go -bench=".*"
 
@@ -11,10 +11,10 @@ package gaes_test
 import (
 	"testing"
 
-	"github.com/gogf/gf/encoding/gbase64"
+	"github.com/mickbai/gf/encoding/gbase64"
 
-	"github.com/gogf/gf/crypto/gaes"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/crypto/gaes"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 var (

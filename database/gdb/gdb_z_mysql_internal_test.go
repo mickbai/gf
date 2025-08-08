@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gdb
 
 import (
 	"fmt"
 	"github.com/go-sql-driver/mysql"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/container/gvar"
+	"github.com/mickbai/gf/os/gcmd"
+	"github.com/mickbai/gf/os/gtime"
+	"github.com/mickbai/gf/test/gtest"
 	"testing"
 )
 
@@ -292,7 +292,7 @@ CREATE TABLE %s (
 	})
 }
 
-// Fix issue: https://github.com/gogf/gf/issues/819
+// Fix issue: https://github.com/mickbai/gf/issues/819
 func Test_Func_ConvertDataForTableRecord(t *testing.T) {
 	type Test struct {
 		ResetPasswordTokenAt mysql.NullTime `orm:"reset_password_token_at"`
@@ -337,7 +337,7 @@ func TestResult_Structs1(t *testing.T) {
 	})
 }
 
-// https://github.com/gogf/gf/issues/1159
+// https://github.com/mickbai/gf/issues/1159
 func Test_ScanList_NoRecreate_PtrAttribute(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type S1 struct {
@@ -393,7 +393,7 @@ func Test_ScanList_NoRecreate_PtrAttribute(t *testing.T) {
 	})
 }
 
-// https://github.com/gogf/gf/issues/1159
+// https://github.com/mickbai/gf/issues/1159
 func Test_ScanList_NoRecreate_StructAttribute(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type S1 struct {
@@ -449,7 +449,7 @@ func Test_ScanList_NoRecreate_StructAttribute(t *testing.T) {
 	})
 }
 
-// https://github.com/gogf/gf/issues/1159
+// https://github.com/mickbai/gf/issues/1159
 func Test_ScanList_NoRecreate_SliceAttribute_Ptr(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type S1 struct {
@@ -553,7 +553,7 @@ func Test_ScanList_NoRecreate_SliceAttribute_Ptr(t *testing.T) {
 	})
 }
 
-// https://github.com/gogf/gf/issues/1159
+// https://github.com/mickbai/gf/issues/1159
 func Test_ScanList_NoRecreate_SliceAttribute_Struct(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type S1 struct {

@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package glog
 
 import (
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/mickbai/gf/errors/gerror"
+	"github.com/mickbai/gf/internal/intlog"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/util/gconv"
+	"github.com/mickbai/gf/util/gutil"
 	"io"
 	"strings"
 	"time"

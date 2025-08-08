@@ -2,13 +2,13 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package g
 
 import (
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/net/ghttp"
+	"github.com/mickbai/gf/internal/intlog"
+	"github.com/mickbai/gf/net/ghttp"
 )
 
 // SetEnabled enables/disables the GoFrame internal logging manually.

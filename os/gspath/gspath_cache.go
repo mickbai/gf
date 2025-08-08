@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 // Package gspath implements file index and search for folders.
 //
@@ -13,9 +13,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gfsnotify"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/os/gfsnotify"
+	"github.com/mickbai/gf/text/gstr"
 )
 
 // updateCacheByPath adds all files under <path> recursively.

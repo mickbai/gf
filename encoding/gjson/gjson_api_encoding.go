@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gjson
 
 import (
-	"github.com/gogf/gf/encoding/gini"
-	"github.com/gogf/gf/encoding/gtoml"
-	"github.com/gogf/gf/encoding/gxml"
-	"github.com/gogf/gf/encoding/gyaml"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/encoding/gini"
+	"github.com/mickbai/gf/encoding/gtoml"
+	"github.com/mickbai/gf/encoding/gxml"
+	"github.com/mickbai/gf/encoding/gyaml"
+	"github.com/mickbai/gf/internal/json"
+	"github.com/mickbai/gf/util/gconv"
 )
 
 // ========================================================================

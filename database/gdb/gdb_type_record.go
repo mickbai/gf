@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gdb
 
 import (
 	"database/sql"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/encoding/gparser"
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/container/gmap"
+	"github.com/mickbai/gf/encoding/gparser"
+	"github.com/mickbai/gf/internal/empty"
+	"github.com/mickbai/gf/util/gconv"
 )
 
 // Json converts `r` to JSON format content.

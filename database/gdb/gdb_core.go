@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 //
 
 package gdb
@@ -11,17 +11,17 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/errors/gerror"
+	"github.com/mickbai/gf/text/gstr"
 	"reflect"
 	"strings"
 
-	"github.com/gogf/gf/internal/utils"
+	"github.com/mickbai/gf/internal/utils"
 
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/container/gvar"
+	"github.com/mickbai/gf/os/gtime"
+	"github.com/mickbai/gf/text/gregex"
+	"github.com/mickbai/gf/util/gconv"
 )
 
 // Ctx is a chaining function, which creates and returns a new DB that is a shallow copy

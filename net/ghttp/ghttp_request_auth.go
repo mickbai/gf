@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package ghttp
 
@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gogf/gf/encoding/gbase64"
+	"github.com/mickbai/gf/encoding/gbase64"
 )
 
 // BasicAuth enables the http basic authentication feature with given passport and password

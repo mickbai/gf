@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gtrace
 
 import (
 	"context"
 
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/container/gvar"
+	"github.com/mickbai/gf/container/gmap"
+	"github.com/mickbai/gf/container/gvar"
 )
 
 // Baggage holds the data through all tracing spans.

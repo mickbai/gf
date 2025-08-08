@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package client
 
@@ -11,10 +11,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/net/ghttp/internal/httputil"
+	"github.com/mickbai/gf/internal/intlog"
+	"github.com/mickbai/gf/internal/json"
+	"github.com/mickbai/gf/internal/utils"
+	"github.com/mickbai/gf/net/ghttp/internal/httputil"
 	"io"
 	"io/ioutil"
 	"mime/multipart"
@@ -23,12 +23,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/encoding/gparser"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/encoding/gparser"
+	"github.com/mickbai/gf/text/gregex"
+	"github.com/mickbai/gf/text/gstr"
+	"github.com/mickbai/gf/util/gconv"
 
-	"github.com/gogf/gf/os/gfile"
+	"github.com/mickbai/gf/os/gfile"
 )
 
 // Get send GET request and returns the response object.

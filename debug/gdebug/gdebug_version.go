@@ -2,13 +2,13 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gdebug
 
 import (
-	"github.com/gogf/gf/crypto/gmd5"
-	"github.com/gogf/gf/encoding/ghash"
+	"github.com/mickbai/gf/crypto/gmd5"
+	"github.com/mickbai/gf/encoding/ghash"
 	"io/ioutil"
 	"strconv"
 )

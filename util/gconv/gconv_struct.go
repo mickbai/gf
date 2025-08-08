@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gconv
 
 import (
 	"fmt"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/structs"
+	"github.com/mickbai/gf/errors/gerror"
+	"github.com/mickbai/gf/internal/empty"
+	"github.com/mickbai/gf/internal/json"
+	"github.com/mickbai/gf/internal/structs"
 	"reflect"
 	"strings"
 
-	"github.com/gogf/gf/internal/utils"
+	"github.com/mickbai/gf/internal/utils"
 )
 
 // Struct maps the params key-value pairs to the corresponding struct object's attributes.

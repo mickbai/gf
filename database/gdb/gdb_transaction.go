@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gdb
 
 import (
 	"database/sql"
 	"fmt"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/os/gtime"
+	"github.com/mickbai/gf/util/gconv"
 	"reflect"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/mickbai/gf/text/gregex"
 )
 
 // TX is the struct for transaction management.

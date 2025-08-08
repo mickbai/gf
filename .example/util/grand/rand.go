@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gogf/gf/os/gtime"
+	"github.com/mickbai/gf/os/gtime"
 )
 
 // int 随机

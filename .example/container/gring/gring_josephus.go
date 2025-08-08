@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/container/gring"
+	"github.com/mickbai/gf/container/gring"
 )
 
 type Player struct {

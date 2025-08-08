@@ -2,27 +2,27 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gi18n
 
 import (
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/mickbai/gf/internal/intlog"
 	"strings"
 	"sync"
 
-	"github.com/gogf/gf/os/gfsnotify"
+	"github.com/mickbai/gf/os/gfsnotify"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/mickbai/gf/text/gregex"
 
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/util/gconv"
 
-	"github.com/gogf/gf/encoding/gjson"
+	"github.com/mickbai/gf/encoding/gjson"
 
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gres"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/os/gres"
 )
 
 // Manager, it is concurrent safe, supporting hot reload.

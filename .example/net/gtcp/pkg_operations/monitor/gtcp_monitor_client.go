@@ -3,11 +3,11 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/gogf/gf/.example/net/gtcp/pkg_operations/monitor/types"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/gtcp"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/mickbai/gf/.example/net/gtcp/pkg_operations/monitor/types"
+	"github.com/mickbai/gf/frame/g"
+	"github.com/mickbai/gf/net/gtcp"
+	"github.com/mickbai/gf/os/glog"
+	"github.com/mickbai/gf/os/gtime"
 )
 
 func main() {

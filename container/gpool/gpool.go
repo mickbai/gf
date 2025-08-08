@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 // Package gpool provides object-reusable concurrent-safe pool.
 package gpool
@@ -11,10 +11,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/os/gtimer"
+	"github.com/mickbai/gf/container/glist"
+	"github.com/mickbai/gf/container/gtype"
+	"github.com/mickbai/gf/os/gtime"
+	"github.com/mickbai/gf/os/gtimer"
 )
 
 // Pool is an Object-Reusable Pool.

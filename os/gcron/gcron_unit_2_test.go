@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gcron_test
 
 import (
-	"github.com/gogf/gf/frame/g"
+	"github.com/mickbai/gf/frame/g"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/os/gcron"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/container/garray"
+	"github.com/mickbai/gf/os/gcron"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 func TestCron_Entry_Operations(t *testing.T) {

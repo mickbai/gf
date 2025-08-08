@@ -2,13 +2,13 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gdb
 
 import (
 	"fmt"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/text/gstr"
 )
 
 // isSubQuery checks and returns whether given string a sub-query sql string.
@@ -59,7 +59,7 @@ func (m *Model) InnerJoin(table ...string) *Model {
 // Table("user", "u").InnerJoin("user_detail", "ud", "ud.uid=u.uid")
 // Table("user", "u").InnerJoin("SELECT xxx FROM xxx AS a", "a.uid=u.uid")
 // Related issues:
-// https://github.com/gogf/gf/issues/1024
+// https://github.com/mickbai/gf/issues/1024
 func (m *Model) doJoin(operator string, table ...string) *Model {
 	var (
 		model   = m.getModel()

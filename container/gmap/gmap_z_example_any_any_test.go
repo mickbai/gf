@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with gm file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gmap_test
 
 import (
 	"fmt"
-	"github.com/gogf/gf/frame/g"
+	"github.com/mickbai/gf/frame/g"
 
-	"github.com/gogf/gf/container/gmap"
+	"github.com/mickbai/gf/container/gmap"
 )
 
 func ExampleNew() {

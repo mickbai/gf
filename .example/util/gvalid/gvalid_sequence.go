@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/util/gvalid"
+	"github.com/mickbai/gf/util/gvalid"
 )
 
 func main() {

@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gutil_test
 
 import (
-	"github.com/gogf/gf/frame/g"
+	"github.com/mickbai/gf/frame/g"
 	"testing"
 
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/mickbai/gf/test/gtest"
+	"github.com/mickbai/gf/util/gutil"
 )
 
 func Test_ListItemValues_Map(t *testing.T) {

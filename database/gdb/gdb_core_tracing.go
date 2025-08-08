@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 //
 
 package gdb
@@ -10,9 +10,9 @@ package gdb
 import (
 	"context"
 	"fmt"
-	"github.com/gogf/gf"
-	"github.com/gogf/gf/net/gtrace"
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/mickbai/gf"
+	"github.com/mickbai/gf/net/gtrace"
+	"github.com/mickbai/gf/os/gcmd"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
@@ -20,7 +20,7 @@ import (
 )
 
 const (
-	tracingInstrumentName       = "github.com/gogf/gf/database/gdb"
+	tracingInstrumentName       = "github.com/mickbai/gf/database/gdb"
 	tracingAttrDbType           = "db.type"
 	tracingAttrDbHost           = "db.host"
 	tracingAttrDbPort           = "db.port"

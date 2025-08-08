@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 // Package gcfg provides reading, caching and managing for configuration.
 package gcfg
@@ -11,21 +11,21 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gmode"
+	"github.com/mickbai/gf/errors/gerror"
+	"github.com/mickbai/gf/internal/intlog"
+	"github.com/mickbai/gf/os/gcmd"
+	"github.com/mickbai/gf/text/gstr"
+	"github.com/mickbai/gf/util/gmode"
 
-	"github.com/gogf/gf/os/gres"
+	"github.com/mickbai/gf/os/gres"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gfsnotify"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gspath"
+	"github.com/mickbai/gf/container/garray"
+	"github.com/mickbai/gf/container/gmap"
+	"github.com/mickbai/gf/encoding/gjson"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/os/gfsnotify"
+	"github.com/mickbai/gf/os/glog"
+	"github.com/mickbai/gf/os/gspath"
 )
 
 const (

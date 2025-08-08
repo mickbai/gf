@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/encoding/gcompress"
+	"github.com/mickbai/gf/encoding/gcompress"
 )
 
 func main() {

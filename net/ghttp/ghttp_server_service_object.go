@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package ghttp
 
@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/text/gregex"
+	"github.com/mickbai/gf/text/gstr"
 )
 
 // BindObject registers object to server routes with given pattern.

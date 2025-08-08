@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gdb_test
 
 import (
 	"fmt"
-	"github.com/gogf/gf/database/gdb"
-	"github.com/gogf/gf/errors/gerror"
+	"github.com/mickbai/gf/database/gdb"
+	"github.com/mickbai/gf/errors/gerror"
 	"testing"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/frame/g"
+	"github.com/mickbai/gf/os/gtime"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 func Test_TX_Query(t *testing.T) {

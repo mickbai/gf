@@ -2,30 +2,30 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gdb
 
 import (
 	"bytes"
 	"fmt"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/util/gmeta"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/mickbai/gf/errors/gerror"
+	"github.com/mickbai/gf/internal/empty"
+	"github.com/mickbai/gf/internal/json"
+	"github.com/mickbai/gf/internal/utils"
+	"github.com/mickbai/gf/os/gtime"
+	"github.com/mickbai/gf/util/gmeta"
+	"github.com/mickbai/gf/util/gutil"
 	"reflect"
 	"regexp"
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/internal/structs"
+	"github.com/mickbai/gf/internal/structs"
 
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/text/gregex"
+	"github.com/mickbai/gf/text/gstr"
+	"github.com/mickbai/gf/util/gconv"
 )
 
 // apiString is the type assert api for String.
@@ -608,7 +608,7 @@ func formatWhereKeyValue(db DB, buffer *bytes.Buffer, newArgs []interface{}, key
 				} else {
 					// The key is not a regular field name.
 					// Eg: Where(g.Map{"age > 16": nil})
-					// Issue: https://github.com/gogf/gf/issues/765
+					// Issue: https://github.com/mickbai/gf/issues/765
 					if empty.IsEmpty(value) {
 						buffer.WriteString(quotedKey)
 						break

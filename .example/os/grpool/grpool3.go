@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gogf/gf/os/grpool"
+	"github.com/mickbai/gf/os/grpool"
 )
 
 func main() {

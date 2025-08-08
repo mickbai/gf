@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 // Package gfsnotify provides a platform-independent interface for file system notifications.
 package gfsnotify
@@ -10,17 +10,17 @@ package gfsnotify
 import (
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/container/gset"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/mickbai/gf/container/gset"
+	"github.com/mickbai/gf/internal/intlog"
 	"sync"
 	"time"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/container/gqueue"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/gcache"
+	"github.com/mickbai/gf/container/glist"
+	"github.com/mickbai/gf/container/gmap"
+	"github.com/mickbai/gf/container/gqueue"
+	"github.com/mickbai/gf/container/gtype"
+	"github.com/mickbai/gf/os/gcache"
 )
 
 // Watcher is the monitor for file changes.

@@ -2,8 +2,8 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/frame/gmvc"
+	"github.com/mickbai/gf/frame/g"
+	"github.com/mickbai/gf/frame/gmvc"
 )
 
 type User struct {

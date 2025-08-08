@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
+	"github.com/mickbai/gf/frame/g"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/os/glog"
 )
 
 func main() {

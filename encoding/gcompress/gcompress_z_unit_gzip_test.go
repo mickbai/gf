@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gcompress_test
 
 import (
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/mickbai/gf/debug/gdebug"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/os/gtime"
 	"testing"
 
-	"github.com/gogf/gf/encoding/gcompress"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/encoding/gcompress"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 func Test_Gzip_UnGzip(t *testing.T) {

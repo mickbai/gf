@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 // go test *.go -bench=".*" -benchmem
 
@@ -12,13 +12,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gogf/gf/os/gtime"
+	"github.com/mickbai/gf/os/gtime"
 
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gcfg"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/encoding/gjson"
+	"github.com/mickbai/gf/frame/g"
+	"github.com/mickbai/gf/os/gcfg"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 func init() {

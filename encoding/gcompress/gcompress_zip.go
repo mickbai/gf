@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gcompress
 
 import (
 	"archive/zip"
 	"bytes"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/internal/intlog"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/text/gstr"
 	"io"
 	"os"
 	"path/filepath"

@@ -2,11 +2,11 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package ghttp
 
-import "github.com/gogf/gf/container/gvar"
+import "github.com/mickbai/gf/container/gvar"
 
 // SetParam sets custom parameter with key-value pair.
 func (r *Request) SetParam(key string, value interface{}) {

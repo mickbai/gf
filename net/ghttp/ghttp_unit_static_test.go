@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 // static service testing.
 
@@ -10,15 +10,15 @@ package ghttp_test
 
 import (
 	"fmt"
-	"github.com/gogf/gf/debug/gdebug"
+	"github.com/mickbai/gf/debug/gdebug"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/text/gstr"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/frame/g"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 func Test_Static_ServerRoot(t *testing.T) {

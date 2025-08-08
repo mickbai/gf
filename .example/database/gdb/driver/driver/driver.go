@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package driver
 
 import (
 	"database/sql"
-	"github.com/gogf/gf/database/gdb"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/mickbai/gf/database/gdb"
+	"github.com/mickbai/gf/os/gtime"
 )
 
 // MyDriver is a custom database driver, which is used for testing only.

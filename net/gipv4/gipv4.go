@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 //
 
 // Package gipv4 provides useful API for IPv4 address handling.
@@ -11,7 +11,7 @@ package gipv4
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/gogf/gf/text/gregex"
+	"github.com/mickbai/gf/text/gregex"
 	"net"
 	"strconv"
 )

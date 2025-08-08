@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/text/gregex"
+	"github.com/mickbai/gf/net/ghttp"
+	"github.com/mickbai/gf/os/glog"
+	"github.com/mickbai/gf/text/gregex"
 )
 
 type MyWriter struct {

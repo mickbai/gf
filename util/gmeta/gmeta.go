@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 // Package gmeta provides embedded meta data feature for struct.
 package gmeta
 
 import (
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/internal/structs"
+	"github.com/mickbai/gf/container/gmap"
+	"github.com/mickbai/gf/container/gvar"
+	"github.com/mickbai/gf/internal/structs"
 )
 
 // Meta is used as an embedded attribute for struct to enabled meta data feature.

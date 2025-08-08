@@ -2,21 +2,21 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package ghttp
 
 import (
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/container/gtype"
+	"github.com/mickbai/gf/container/gtype"
 	"strings"
 
-	"github.com/gogf/gf/debug/gdebug"
+	"github.com/mickbai/gf/debug/gdebug"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/container/glist"
+	"github.com/mickbai/gf/text/gregex"
+	"github.com/mickbai/gf/text/gstr"
 )
 
 const (

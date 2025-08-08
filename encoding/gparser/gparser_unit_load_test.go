@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gparser_test
 
@@ -10,10 +10,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/gogf/gf/encoding/gparser"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/encoding/gparser"
+	"github.com/mickbai/gf/frame/g"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 func Test_Load_JSON(t *testing.T) {

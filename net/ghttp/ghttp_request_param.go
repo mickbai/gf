@@ -2,23 +2,23 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package ghttp
 
 import (
 	"bytes"
 	"fmt"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/encoding/gurl"
-	"github.com/gogf/gf/encoding/gxml"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gvalid"
+	"github.com/mickbai/gf/container/gvar"
+	"github.com/mickbai/gf/encoding/gjson"
+	"github.com/mickbai/gf/encoding/gurl"
+	"github.com/mickbai/gf/encoding/gxml"
+	"github.com/mickbai/gf/internal/json"
+	"github.com/mickbai/gf/internal/utils"
+	"github.com/mickbai/gf/text/gregex"
+	"github.com/mickbai/gf/text/gstr"
+	"github.com/mickbai/gf/util/gconv"
+	"github.com/mickbai/gf/util/gvalid"
 	"io/ioutil"
 	"mime/multipart"
 	"reflect"

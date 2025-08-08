@@ -2,25 +2,25 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gview_test
 
 import (
-	"github.com/gogf/gf/encoding/ghtml"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/encoding/ghtml"
+	"github.com/mickbai/gf/os/gtime"
+	"github.com/mickbai/gf/util/gconv"
 	"io/ioutil"
 	"os"
 	"strings"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gview"
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/frame/g"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/os/gview"
+	"github.com/mickbai/gf/test/gtest"
+	"github.com/mickbai/gf/text/gstr"
 )
 
 func init() {

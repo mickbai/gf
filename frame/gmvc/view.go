@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gmvc
 
 import (
-	"github.com/gogf/gf/frame/gins"
+	"github.com/mickbai/gf/frame/gins"
 	"sync"
 
-	"github.com/gogf/gf/util/gmode"
+	"github.com/mickbai/gf/util/gmode"
 
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/os/gview"
+	"github.com/mickbai/gf/net/ghttp"
+	"github.com/mickbai/gf/os/gview"
 )
 
 // View is the view object for controller.

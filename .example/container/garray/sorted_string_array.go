@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/container/garray"
+	"github.com/mickbai/gf/container/garray"
 )
 
 func main() {

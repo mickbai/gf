@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gfile_test
 
@@ -13,10 +13,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/text/gstr"
 
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 func createTestFile(filename, content string) error {

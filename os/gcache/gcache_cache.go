@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gcache
 
 import (
 	"context"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/os/gtimer"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/container/gvar"
+	"github.com/mickbai/gf/os/gtimer"
+	"github.com/mickbai/gf/util/gconv"
 	"time"
 )
 

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/container/gtree"
+	"github.com/mickbai/gf/container/gtree"
 )
 
 func main() {

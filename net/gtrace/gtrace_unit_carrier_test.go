@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gtrace_test
 
 import (
 	"context"
-	"github.com/gogf/gf/net/gtrace"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/net/gtrace"
+	"github.com/mickbai/gf/test/gtest"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/oteltest"
 	"go.opentelemetry.io/otel/trace"

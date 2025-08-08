@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/container/gset"
-	"github.com/gogf/gf/frame/g"
+	"github.com/mickbai/gf/container/gset"
+	"github.com/mickbai/gf/frame/g"
 )
 
 func main() {

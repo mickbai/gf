@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 // go test *.go -bench=".*"
 
 package guid_test
 
 import (
-	"github.com/gogf/gf/container/gset"
-	"github.com/gogf/gf/util/guid"
+	"github.com/mickbai/gf/container/gset"
+	"github.com/mickbai/gf/util/guid"
 	"testing"
 
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 func Test_S(t *testing.T) {

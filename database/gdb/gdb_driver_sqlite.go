@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 //
 // Note:
 // 1. It needs manually import: _ "github.com/mattn/go-sqlite3"
@@ -13,10 +13,10 @@ package gdb
 import (
 	"database/sql"
 	"fmt"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/errors/gerror"
+	"github.com/mickbai/gf/internal/intlog"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/text/gstr"
 	"strings"
 )
 

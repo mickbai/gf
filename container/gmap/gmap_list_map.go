@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with gm file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gmap
 
 import (
-	"github.com/gogf/gf/internal/json"
+	"github.com/mickbai/gf/internal/json"
 
-	"github.com/gogf/gf/internal/empty"
+	"github.com/mickbai/gf/internal/empty"
 
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/util/gconv"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/internal/rwmutex"
+	"github.com/mickbai/gf/container/glist"
+	"github.com/mickbai/gf/container/gvar"
+	"github.com/mickbai/gf/internal/rwmutex"
 )
 
 type ListMap struct {

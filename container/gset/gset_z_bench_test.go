@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 // go test *.go -bench=".*" -benchmem
 
@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/gogf/gf/container/gset"
+	"github.com/mickbai/gf/container/gset"
 )
 
 var intSet = gset.NewIntSet(true)

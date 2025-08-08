@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gproc"
+	"github.com/mickbai/gf/os/glog"
+	"github.com/mickbai/gf/os/gproc"
 )
 
 // 父进程销毁后，使用进程管理器查看存活的子进程。

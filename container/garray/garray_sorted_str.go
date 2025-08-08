@@ -2,21 +2,21 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package garray
 
 import (
 	"bytes"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/internal/json"
+	"github.com/mickbai/gf/text/gstr"
 	"math"
 	"sort"
 	"strings"
 
-	"github.com/gogf/gf/internal/rwmutex"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/grand"
+	"github.com/mickbai/gf/internal/rwmutex"
+	"github.com/mickbai/gf/util/gconv"
+	"github.com/mickbai/gf/util/grand"
 )
 
 // SortedStrArray is a golang sorted string array with rich features.

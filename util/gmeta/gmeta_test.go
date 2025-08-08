@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gmeta_test
 
 import (
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/util/gmeta"
+	"github.com/mickbai/gf/internal/json"
+	"github.com/mickbai/gf/util/gmeta"
 	"testing"
 
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 type A struct {

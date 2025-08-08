@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package client
 
@@ -11,10 +11,10 @@ import (
 	"crypto/rand"
 	"crypto/tls"
 	"fmt"
-	"github.com/gogf/gf"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf"
+	"github.com/mickbai/gf/errors/gerror"
+	"github.com/mickbai/gf/os/gfile"
+	"github.com/mickbai/gf/text/gstr"
 	"golang.org/x/net/proxy"
 	"net"
 	"net/http"
@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/mickbai/gf/text/gregex"
 )
 
 // Client is the HTTP client for HTTP request management.

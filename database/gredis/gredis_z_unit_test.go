@@ -2,23 +2,23 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gredis_test
 
 import (
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/util/guid"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/mickbai/gf/container/gvar"
+	"github.com/mickbai/gf/frame/g"
+	"github.com/mickbai/gf/util/guid"
+	"github.com/mickbai/gf/util/gutil"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/mickbai/gf/os/gtime"
+	"github.com/mickbai/gf/util/gconv"
 
-	"github.com/gogf/gf/database/gredis"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/mickbai/gf/database/gredis"
+	"github.com/mickbai/gf/test/gtest"
 )
 
 var (

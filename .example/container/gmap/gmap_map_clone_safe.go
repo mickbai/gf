@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/frame/g"
+	"github.com/mickbai/gf/container/gmap"
+	"github.com/mickbai/gf/frame/g"
 )
 
 func main() {

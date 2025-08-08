@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package ghttp
 
@@ -11,10 +11,10 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/gogf/gf"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/net/ghttp/internal/client"
-	"github.com/gogf/gf/net/gtrace"
+	"github.com/mickbai/gf"
+	"github.com/mickbai/gf/internal/utils"
+	"github.com/mickbai/gf/net/ghttp/internal/client"
+	"github.com/mickbai/gf/net/gtrace"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/propagation"
@@ -22,7 +22,7 @@ import (
 )
 
 const (
-	tracingInstrumentName           = "github.com/gogf/gf/net/ghttp.Server"
+	tracingInstrumentName           = "github.com/mickbai/gf/net/ghttp.Server"
 	tracingEventHttpRequest         = "http.request"
 	tracingEventHttpRequestHeaders  = "http.request.headers"
 	tracingEventHttpRequestBaggage  = "http.request.baggage"

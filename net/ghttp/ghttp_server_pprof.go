@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package ghttp
 
@@ -11,7 +11,7 @@ import (
 	runpprof "runtime/pprof"
 	"strings"
 
-	"github.com/gogf/gf/os/gview"
+	"github.com/mickbai/gf/os/gview"
 )
 
 // utilPProf is the PProf interface implementer.

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/gogf/gf/os/gtime"
+	"github.com/mickbai/gf/os/gtime"
 )
 
 func main() {

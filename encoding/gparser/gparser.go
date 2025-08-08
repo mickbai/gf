@@ -8,7 +8,7 @@
 package gparser
 
 import (
-	"github.com/gogf/gf/encoding/gjson"
+	"github.com/mickbai/gf/encoding/gjson"
 )
 
 // Parser is actually alias of gjson.Json.

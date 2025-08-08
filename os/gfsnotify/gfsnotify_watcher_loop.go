@@ -2,13 +2,13 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gfsnotify
 
 import (
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/mickbai/gf/container/glist"
+	"github.com/mickbai/gf/internal/intlog"
 )
 
 // startWatchLoop starts the loop for event listening fro underlying inotify monitor.

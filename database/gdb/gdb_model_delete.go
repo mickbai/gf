@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gdb
 
 import (
 	"database/sql"
 	"fmt"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/mickbai/gf/errors/gerror"
+	"github.com/mickbai/gf/os/gtime"
+	"github.com/mickbai/gf/text/gstr"
 )
 
 // Delete does "DELETE FROM ... " statement for the model.

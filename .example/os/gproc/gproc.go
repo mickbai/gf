@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gproc"
+	"github.com/mickbai/gf/os/glog"
+	"github.com/mickbai/gf/os/gproc"
 )
 
 // 父子进程基本演示

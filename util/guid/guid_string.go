@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package guid
 
 import (
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/encoding/ghash"
-	"github.com/gogf/gf/net/gipv4"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/grand"
+	"github.com/mickbai/gf/container/gtype"
+	"github.com/mickbai/gf/encoding/ghash"
+	"github.com/mickbai/gf/net/gipv4"
+	"github.com/mickbai/gf/util/gconv"
+	"github.com/mickbai/gf/util/grand"
 	"os"
 	"strconv"
 	"time"

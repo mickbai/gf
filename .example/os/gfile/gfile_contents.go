@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/os/gfile"
+	"github.com/mickbai/gf/os/gfile"
 )
 
 func main() {

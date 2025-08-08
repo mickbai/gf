@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/mickbai/gf.
 
 package gtimer
 
@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/container/gtype"
+	"github.com/mickbai/gf/container/glist"
+	"github.com/mickbai/gf/container/gtype"
 )
 
 // Timer is a Hierarchical Timing Wheel manager for timing jobs.

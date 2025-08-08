@@ -3,9 +3,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gogf/gf/frame/g"
+	"github.com/mickbai/gf/frame/g"
 
-	"github.com/gogf/gf/container/gmap"
+	"github.com/mickbai/gf/container/gmap"
 )
 
 func main() {
